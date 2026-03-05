@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<div class="rain"></div>
+<div class="snow"></div>
+<body>
+    <div class="weather-container">
+        <div class="app-title">Weather App</div>
+
+        <div class="search-section">
+            <input type="text" placeholder="London" class="cityInput">
+            <button class="search-btn">Find</button>
+        </div>
+
+        <div class="city-name" id="cityName">Search City...</div>
+
+        <div class="weather-display">
+            <div class="weather-icon" id="weatherIcon" >...</div>
+            <div class="temperature" id="temperature"></div>
+            <div class="weather-description" id="description"></div>
+        </div>
+
+        <div class="weather-details">
+            <div class="detail-item">
+                <div class="detail-label">Ощущается</div>
+                <div class="detail-value" id="feelsLike"></div>
+            </div>
+            <div class="detail-item">
+                <div class="detail-label">Влажность</div>
+                <div class="detail-value" id="humidity"></div>
+            </div>
+            <div class="detail-item">
+                <div class="detail-label">Ветер</div>
+                <div class="detail-value" id="wind"></div>
+            </div>
+            <div class="detail-item">
+                <div class="detail-label">Давление</div>
+                <div class="detail-value" id="pressure"></div> 
+            </div>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
